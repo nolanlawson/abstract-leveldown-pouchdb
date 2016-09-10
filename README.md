@@ -1,4 +1,8 @@
-# Abstract LevelDOWN [![Build Status](https://secure.travis-ci.org/Level/abstract-leveldown.png)](http://travis-ci.org/Level/abstract-leveldown)
+# abstract-leveldown-pouchdb [![Build Status](https://secure.travis-ci.org/nolanlawson/abstract-leveldown-pouchdb.png)](http://travis-ci.org/nolanlawson/abstract-leveldown-pouchdb)
+
+Fork of [abstract-leveldown](https://github.com/nolanlawson/abstract-leveldown) because stuff broke in v2.5.0 and [@nolanlawson](https://github.com/nolanlawson) was too lazy to fix it.
+
+Consider it a running fork of 2.4.1. See [this comment](https://github.com/Level/abstract-leveldown/pull/96#issuecomment-246122818) for backstory.
 
 <img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
 

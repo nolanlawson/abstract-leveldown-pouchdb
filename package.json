@@ -1,6 +1,6 @@
 {
-  "name": "abstract-leveldown",
-  "description": "An abstract prototype matching the LevelDOWN API",
+  "name": "abstract-leveldown-pouchdb",
+  "description": "An abstract prototype matching the LevelDOWN API (forked for PouchDB)",
   "version": "2.4.1",
   "contributors": [
     "Rod Vagg <r@va.gg> (https://github.com/rvagg)",
@@ -20,9 +20,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/level/abstract-leveldown.git"
+    "url": "https://github.com/nolanlawson/abstract-leveldown-pouchdb.git"
   },
-  "homepage": "https://github.com/level/abstract-leveldown",
+  "homepage": "https://github.com/nolanlawson/abstract-leveldown-pouchdb",
   "keywords": [
     "leveldb",
     "leveldown",
