@@ -3,6 +3,7 @@
 var xtend                = require('xtend')
   , AbstractIterator     = require('./abstract-iterator')
   , AbstractChainedBatch = require('./abstract-chained-batch')
+  , NOT_FOUND_ERROR      = new Error('NotFound')
 
 function AbstractLevelDOWN (location) {
   if (!arguments.length || location === undefined)
@@ -93,7 +94,7 @@ AbstractLevelDOWN.prototype.get = function (key, options, callback) {
   if (typeof this._get == 'function')
     return this._get(key, options, callback)
 
-  process.nextTick(function () { callback(new Error('NotFound')) })
+  process.nextTick(function () { callback(NOT_FOUND_ERROR) })
 }
 
 AbstractLevelDOWN.prototype.put = function (key, value, options, callback) {
