@@ -6,9 +6,6 @@ Consider it a running fork of 2.4.1. See [this comment](https://github.com/Level
 
 <img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
 
-[![NPM](https://nodei.co/npm/abstract-leveldown.png?downloads=true&downloadRank=true)](https://nodei.co/npm/abstract-leveldown/)
-[![NPM](https://nodei.co/npm-dl/abstract-leveldown.png?months=6&height=3)](https://nodei.co/npm/abstract-leveldown/)
-
 An abstract prototype matching the **[LevelDOWN](https://github.com/level/leveldown/)** API. Useful for extending **[LevelUP](https://github.com/level/levelup)** functionality by providing a replacement to LevelDOWN.
 
 As of version 0.7, LevelUP allows you to pass a `'db'` option when you create a new instance. This will override the default LevelDOWN store with a LevelDOWN API compatible object.
