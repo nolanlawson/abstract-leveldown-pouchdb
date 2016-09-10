@@ -4,6 +4,12 @@ Fork of [abstract-leveldown](https://github.com/nolanlawson/abstract-leveldown) 
 
 Consider it a running fork of 2.4.1. See [this comment](https://github.com/Level/abstract-leveldown/pull/96#issuecomment-246122818) for backstory.
 
+### Changelog
+
+- **2.4.3**: avoid allocating extra NotFoundError ([5d7a780](https://github.com/nolanlawson/abstract-leveldown-pouchdb/commit/5d7a78021c4a4a0123f125f0bc3a57b4acbdc606))
+- **2.4.2**: fork
+
+
 <img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
 
 An abstract prototype matching the **[LevelDOWN](https://github.com/level/leveldown/)** API. Useful for extending **[LevelUP](https://github.com/level/levelup)** functionality by providing a replacement to LevelDOWN.
