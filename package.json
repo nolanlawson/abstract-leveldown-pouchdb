@@ -1,7 +1,7 @@
 {
   "name": "abstract-leveldown-pouchdb",
   "description": "An abstract prototype matching the LevelDOWN API (forked for PouchDB)",
-  "version": "2.4.1",
+  "version": "2.4.2",
   "contributors": [
     "Rod Vagg <r@va.gg> (https://github.com/rvagg)",
     "John Chesley <john@chesl.es> (https://github.com/chesles/)",
