@@ -1,3 +1,5 @@
+# DEPRECATED - see https://github.com/Level/memdown/pull/56#issuecomment-246451933
+
 # abstract-leveldown-pouchdb [![Build Status](https://secure.travis-ci.org/nolanlawson/abstract-leveldown-pouchdb.png)](http://travis-ci.org/nolanlawson/abstract-leveldown-pouchdb)
 
 Fork of [abstract-leveldown](https://github.com/nolanlawson/abstract-leveldown) because stuff broke in v2.5.0 and [@nolanlawson](https://github.com/nolanlawson) was too lazy to fix it.
